@@ -18,7 +18,7 @@ if(isset($_POST['email'])) {
  
         // your error code can go here
  
-        echo "We are very sorry, but there were error(s) found with the form you submitted. ";
+        echo "We are sorry, but there were error(s) found with the form you submitted.";
  
         echo "These errors appear below.<br /><br />";
  
@@ -119,7 +119,7 @@ if(isset($_POST['email'])) {
  
      
  
-// create email headers
+//  email headers
  
 $headers = 'From: '.$email_from."\r\n".
  
